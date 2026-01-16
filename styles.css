@@ -1,0 +1,90 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color: #222222; /* deep charcoal gray */
+  border: 2px solid #00d4ff; /* matches your cyan tone */
+  border-radius: 10px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #ffd700; /* golden-yellow text */
+}
+
+p {
+  font-size: 2rem;
+  color: #ffd700; /* golden-yellow text */
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.play {
+  margin-top: 40px; /* adjust the value as needed */
+  margin-bottom: 20px;
+  text-align: center; /* keeps the button centered */
+}
+
+.cool-button {
+  background: linear-gradient(145deg, #ffd700, #ffc107); /* yellow gradient */
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 193, 7, 0.6); /* yellow glow */
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cool-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.cool-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.8); /* brighter glow on hover */
+}
+
+.cool-button:hover::before {
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Who's Paying</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./dice-6-fill.svg" type="image/x-icon" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Who's Paying?</h1>
+
+      <div class="winner">
+        <p id="winnerText"></p>
+        <div class="dice">
+          <img id="diceOne" src="./images/dice1.png" />
+        </div>
+
+        <div class="dice">
+          <img id="diceTwo" src="./images/dice1.png" />
+        </div>
+      </div>
+
+      <div class="play">
+        <button type="button" class="cool-button" onclick="playGame()">
+          Roll Dice
+        </button>
+      </div>
+    </div>
+
+    <footer>Seth Williams Games</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
