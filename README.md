@@ -2,7 +2,7 @@
 
 A quick, fun dice game that randomly decides **who pays**. Click **Roll Dice** and let fate (and JavaScript) settle the argument.
 
-**Live Demo:** https://swilliams2000.github.io/Dice-Game/ :contentReference[oaicite:0]{index=0}
+**Live Demo:** https://swilliams2000.github.io/Dice-Game/
 
 ---
 
@@ -25,7 +25,7 @@ A quick, fun dice game that randomly decides **who pays**. Click **Roll Dice** a
 ## 🛠️ Built With
 - HTML
 - CSS
-- JavaScript :contentReference[oaicite:1]{index=1}
+- JavaScript 
 
 ---
 
